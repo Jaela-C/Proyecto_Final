@@ -39,24 +39,24 @@
        - Dentro del *for* se guarda la información extraída en un *doc* tipo JSON, se realizan verificaciones y se declara un tiempo de espera para evitar un bloqueo de cuenta.
        - Todos los datos se envían a una base de datos de couchdb.
 
-## Extracción de datos Juegos en linea
+## Extracción de datos Juegos en línea
 
 * **Procedimiento**
   * Con el fin de reducir el tamaño de la muestra a medir se desarrollaron dos Scripts en Python utilizados 
-    para realizar Web Scraping en una pagina web que contiene bastante información sobre juegos, jugadores, 
+    para realizar Web Scraping en una página web que contiene bastante información sobre juegos, jugadores, 
     torneos, etc. Esta página web es [Liquipedia](https://liquipedia.net/).
     
-    De esta página web se extrajo un total de 30 juegos dentro del ambito de los Electronic Sport (e-sport), 
-    ademas de se extrajo la nacionalidad de los jugadores dentro del ambito de los e-sports. Esto fué de gran ayudar 
+    De esta página web se extrajo un total de 30 juegos dentro del ámbito de los Electronic Sport (e-sport), 
+    además de se extrajo la nacionalidad de los jugadores dentro del ámbito de los e-sports. Esto fue de gran ayuda 
     para definir la dirección de la investigación. 
     
-    Se decidió realizar la busqueda por medio de un track de palabras ya que arrojaban más datos que hacerlo por
-    localización extraida de la nacionalidad de los jugadores.
+    Se decidió realizar la búsqueda por medio de un track de palabras ya que, arrojaban más datos que hacerlo por
+    localización extraída de la nacionalidad de los jugadores.
     
-    Estos datos extraidos, ya presentaban una localización en la mayoria de casos, entonces podria ser más fácil si se 
+    Estos datos extraídos, ya presentaban una localización en la mayoría de casos, entonces podría ser más fácil si se 
     lo buscaba de esta manera.
     
-    Finalmente se compararon las gráficas generadas, con otras extraidas de la plataforma [Kaggle](https://www.kaggle.com/)
+    Finalmente se compararon las gráficas generadas, con otras extraídas de la plataforma [Kaggle](https://www.kaggle.com/)
     para verificar si existía alguna similitud con lo investigado.
 
 ##
