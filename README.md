@@ -1,4 +1,3 @@
-# Proyecto_Final
 # **Proyecto_Final**
 ## Pulso político de ciudades y provincias del Ecuador
    - **Provincias del Ecuador - Twitter a CouchDB**
